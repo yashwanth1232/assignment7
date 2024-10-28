@@ -1,0 +1,107 @@
+/* src/index.css */
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+   background-color: aqua;
+ /* Dark background */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  nav {
+    background: #000;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center; /* Center the content */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block; /* Ensure the list displays as inline block */
+}
+
+nav ul li {
+    display: inline; /* Keep the list items inline */
+    margin-right: 20px; /* Space between items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e50914; /* Highlight color */
+}
+
+
+  h1, h2, h3 {
+    color: #ffffff;
+  }
+  
+  /* Container for lists */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Card styles */
+  .card {
+    background: #333;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #ffffff;
+  }
+  
+  /* User Detail styles */
+  .user-detail {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  /* List styles */
+  ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Make the list items wrap */
+    justify-content: flex-start;
+  }
+  
+  li {
+    list-style: none;
+    width: calc(25% - 20px); /* Adjust width for card layout */
+    margin: 10px;
+  }
+  
